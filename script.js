@@ -15,9 +15,9 @@ guessButton.addEventListener("click", () => {
         guessButton.disabled = true;
         restartButton.classList.remove("hidden");
     } else if (userGuess < randomNumber) {
-        result.textContent = "🔼 Too low! Try again.";
+        result.textContent = "🔽 Too low! Try again.";
     } else if (userGuess > randomNumber) {
-        result.textContent = "🔽 Too high! Try again.";
+        result.textContent = "🔼 Too high! Try again.";
     }
 
     guessInput.value = "";
