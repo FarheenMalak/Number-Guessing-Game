@@ -1,5 +1,4 @@
 let randomNumber = Math.floor(Math.random() * 100) + 1;
-let attempts = 0;
 
 const guessButton = document.getElementById("guessButton");
 const guessInput = document.getElementById("guessInput");
@@ -8,10 +7,9 @@ const restartButton = document.getElementById("restartButton");
 
 guessButton.addEventListener("click", () => {
     const userGuess = Number(guessInput.value);
-    attempts++;
-
+    
     if (userGuess === randomNumber) {
-        result.textContent = `🎉 Congratulations! You guessed it in ${attempts} attempts. 🎉`;
+        result.textContent = `🎉 Congratulations! You guessed it. 🎉`;
         guessButton.disabled = true;
         restartButton.classList.remove("hidden");
     } else if (userGuess < randomNumber) {
