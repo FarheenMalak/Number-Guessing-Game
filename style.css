@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 0 10px; /* Add padding for smaller screens */
+    padding: 0 10px; 
 }
 
 .container {
@@ -15,8 +15,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    width: 90%; /* Make it responsive */
-    max-width: 400px; /* Set a max width */
+    width: 90%; 
+    max-width: 400px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -27,13 +27,13 @@ body {
 
 h1 {
     color: #333;
-    font-size: 2rem; /* Use rems for scalable text */
+    font-size: 2rem; 
 }
 
 #image {
-    max-width: 100%; /* Ensure the image scales down */
+    max-width: 100%; 
     height: auto;
-    margin-left: 0; /* Remove negative margin */
+    margin-left: 0;
 }
 
 p {
@@ -42,7 +42,7 @@ p {
 }
 
 input {
-    width: 90%; /* Make the input field responsive */
+    width: 90%; 
     padding: 12px;
     margin: 15px 0;
     border: 2px solid #65a5eb;
